@@ -8,8 +8,7 @@ Dans un premier temps, [trouver les dates de mises en services fiables et les fa
 Dans un second temps, trouver des documents permettant l'analyse de l'expansion de Paris (habitants, déplacements, etc.) <br />
 
 **Données analysés** <br />
-Les données annalysées sont issue d'un dataset trouvable sous Kaggle.com. <br />
-Les données se trouvent [ici](https://www.citylines.co/data?city=paris#city "Cityline").
+Les données sont issue du site citylines et se trouvent [ici](https://www.citylines.co/data?city=paris#city "Cityline").
 
 **Fichiers contenus dans le projet**
 
