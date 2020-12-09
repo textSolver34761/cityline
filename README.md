@@ -1,10 +1,11 @@
 # Cityline
 **Présentation du projet** <br />
 
-Le but est d'analyser l'expention du métro en fonction de l'expansion de Paris (habitants, déplacements, etc.) <br />
-Dans un premier temps, [trouver les dates de mises en services fiables et changer les données](https://fr.wikipedia.org/wiki/M%C3%A9tro_de_Paris "Wikipedia") <br />
-Dans un second temps, trouver des documents explicant l'expansion de Paris (habitants, déplacements, etc.) <br />
+Le but est d'analyser l'expantion du métro en fonction de l'expansion de Paris (habitants, déplacements, etc.) <br />
 
+**TODO** <br />
+Dans un premier temps, [trouver les dates de mises en services fiables et les faire coïcider avec les données de citylines](https://fr.wikipedia.org/wiki/M%C3%A9tro_de_Paris "Wikipedia"). <br />
+Dans un second temps, trouver des documents permettant l'analyse de l'expansion de Paris (habitants, déplacements, etc.) <br />
 
 **Données analysés** <br />
 Les données annalysées sont issue d'un dataset trouvable sous Kaggle.com. <br />
