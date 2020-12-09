@@ -1,8 +1,8 @@
 # Cityline
 **Présentation du projet** <br />
-**Données analysés**
+**Données analysés** <br />
 Les données annalysées sont issue d'un dataset trouvable sous Kaggle.com. <br />
-Les données se trouvent sous Ici ce qui suit [Lien](https://www.kaggle.com/citylines/city-lines "Cityline") Cityline
+Les données se trouvent [ici](https://www.kaggle.com/citylines/city-lines "Cityline").
 
 **Fichiers contenus dans le projet**
 
