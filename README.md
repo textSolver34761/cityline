@@ -5,13 +5,10 @@ Le but est d'analyser l'expantion du métro en fonction de l'expansion de Paris 
 
 **TODO** <br />
 Dans un premier temps, trouver les dates de mises en services fiables pour les faire coïcider avec les données de citylines : **fait** <br />
-Dans un second temps, trouver des documents permettant l'analyse de l'expansion de Paris (habitants, déplacements, etc.) <br />
+Dans un second temps, trouver des documents permettant l'analyse de l'expansion de Paris (habitants, déplacements, etc.) **fait** <br />
+Dans un troisème temps, prendre les données au format JSON de citylines et ne répcupérer les données liés au métro. <br />
 <br />
-Par exemple: <br />
 
-[INSEE](https://www.insee.fr/fr/statistiques/2012713) <br />
-[Immobilier 1](https://politiquedulogement.com/2018/05/20-ans-de-hausse-des-prix-immobiliers-en-ile-de-france-a-qui-la-faute/) <br />
-[cgedd.developpement-durable.gouv.fr](http://www.cgedd.developpement-durable.gouv.fr/prix-immobilier-evolution-a-long-terme-a1048.html) <br />
 
 
 **Données analysés** <br />
