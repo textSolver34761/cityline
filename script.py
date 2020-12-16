@@ -1,6 +1,8 @@
 import pandas as pd
 
 # parse according to "system_name":"Métro de Paris"
+# asked help on StackOverflow :
+#https://stackoverflow.com/questions/65328899/is-there-a-way-to-sort-a-dataframe-using-pandas-or-other-library-in-python
 data = pd.read_json(r'paris_lines_systems_and_modes.json')
 
 # parse wiki table
