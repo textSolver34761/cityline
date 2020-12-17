@@ -4,6 +4,9 @@ import pandas as pd
 # asked help on StackOverflow :
 #https://stackoverflow.com/questions/65328899/is-there-a-way-to-sort-a-dataframe-using-pandas-or-other-library-in-python
 data = pd.read_json(r'paris_lines_systems_and_modes.json')
+data = data[data.system_name == "Métro de Paris"]
+data = data[data.color != "#000"]
+print(data)
 
 # parse wiki table
 data_wiki = pd.read_html('https://fr.wikipedia.org/wiki/M%C3%A9tro_de_Paris') 
