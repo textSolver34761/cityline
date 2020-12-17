@@ -9,8 +9,11 @@ data = data[data.color != "#000"]
 print(data)
 
 # parse wiki table
-data_wiki = pd.read_html('https://fr.wikipedia.org/wiki/M%C3%A9tro_de_Paris') 
+data_wiki = pd.read_html('https://fr.wikipedia.org/wiki/M%C3%A9tro_de_Paris')
 dataFrame_wiki = data_wiki[1]
+print(dataFrame_wiki)
+#looking for a way to replace NAN by M1, M2 etc.
+
 # parse wiki table 
 dem_paris = pd.read_html('https://fr.wikipedia.org/wiki/Mod%C3%A8le:Tableau_D%C3%A9mographie_Paris#Carte')
 df_dem_paris_250_1600 = dem_paris[0]
