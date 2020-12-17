@@ -12,7 +12,11 @@ print(data)
 data_wiki = pd.read_html('https://fr.wikipedia.org/wiki/M%C3%A9tro_de_Paris')
 dataFrame_wiki = data_wiki[1]
 print(dataFrame_wiki)
-#looking for a way to replace NAN by M1, M2 etc.
+
+# looking for a way to replace NAN by M1, M2 etc. (content)
+#  looking for a way to replace Ligne by Ligne Horizon. (header)
+
+# https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging
 
 # parse wiki table 
 dem_paris = pd.read_html('https://fr.wikipedia.org/wiki/Mod%C3%A8le:Tableau_D%C3%A9mographie_Paris#Carte')
