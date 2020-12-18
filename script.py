@@ -12,11 +12,26 @@ data = data[data.color != "#000"]
 data_wiki = pd.read_html('https://fr.wikipedia.org/wiki/M%C3%A9tro_de_Paris')
 dataFrame_wiki = data_wiki[1]
 
-# looking for a way to replace NAN by M1, M2 etc. (content)
-
-
 # looking for a way to replace Ligne by Ligne Horizon. (header)
 dataFrame_wiki.columns = ['Ligne Horizon','Parcours','Mise en service','Dernier prolongement','Longueur en km (en surface)','Nombre de stations','Materiel','Voitures par rame','Nb de Rames (en pointe)','Nb total de rames','Millions de voyageurs (2017)']
+
+# looking for a way to replace NAN by M1, M2 etc. (content)
+dataFrame_wiki.loc[
+    (dataFrame_wiki['Ligne Horizon']=='NAN') & 
+    (dataFrame_wiki['Parcours']=='La Défense ↔ Château de Vincennes') & 
+    (dataFrame_wiki['Mise en service']==1990) & 
+    (dataFrame_wiki['Dernier prolongement']==1992) &
+    (dataFrame_wiki['Longueur en km (en surface)']=='16,6' '(0,6)') &
+    (dataFrame_wiki['Nombre de stations']==25) &
+    (dataFrame_wiki['Materiel']=='MP 05') &
+    (dataFrame_wiki['Voitures par rame']==6) &
+    (dataFrame_wiki['Nb de Rames (en pointe)'==45]) &
+    (dataFrame_wiki['Nb total de rames'==56]) &
+    (dataFrame_wiki['Millions de voyageurs (2017)'==181,2])
+    ] = [['M 1','La Défense ↔ Château de Vincennes',1990,1992,16.6,25,'MP 05',6,45,56,181.2]]
+
+
+
 print(dataFrame_wiki)
 # https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging
 
