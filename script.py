@@ -16,23 +16,26 @@ dataFrame_wiki = data_wiki[1]
 dataFrame_wiki.columns = ['Ligne Horizon','Parcours','Mise en service','Dernier prolongement','Longueur en km (en surface)','Nombre de stations','Materiel','Voitures par rame','Nb de Rames','Nb total de rames','Millions de voyageurs (2017)']
 
 # looking for a way to replace NAN by M1, M2 etc. (content)
-dataFrame_wiki.loc[
-    (dataFrame_wiki['Ligne Horizon']=='NAN') & 
-    (dataFrame_wiki['Parcours']=='La Défense ↔ Château de Vincennes') & 
-    (dataFrame_wiki['Mise en service']==1990) & 
-    (dataFrame_wiki['Dernier prolongement']==1992) &
-    (dataFrame_wiki['Longueur en km (en surface)']=='16,6' '(0,6)') &
-    (dataFrame_wiki['Nombre de stations']==25) &
-    (dataFrame_wiki['Materiel']=='MP 05') &
-    (dataFrame_wiki['Voitures par rame']==6) &
-    (dataFrame_wiki.iloc[['Nb de Rames'==45]]) &
-    (dataFrame_wiki['Nb total de rames'==56]) &
-    (dataFrame_wiki['Millions de voyageurs (2017)'==181,2])
-    ] = [['M 1','La Défense ↔ Château de Vincennes',1990,1992,16.6,25,'MP 05',6,45,56,181.2]]
-
-
+dataFrame_wiki.loc[0,'Ligne Horizon']='M 1'
+dataFrame_wiki.loc[1,'Ligne Horizon']='M 2'
+dataFrame_wiki.loc[2,'Ligne Horizon']='M 3'
+dataFrame_wiki.loc[3,'Ligne Horizon']='M 3bis'
+dataFrame_wiki.loc[4,'Ligne Horizon']='M 4'
+dataFrame_wiki.loc[5,'Ligne Horizon']='M 5'
+dataFrame_wiki.loc[6,'Ligne Horizon']='M 6'
+dataFrame_wiki.loc[7,'Ligne Horizon']='M 7'
+dataFrame_wiki.loc[8,'Ligne Horizon']='M 7bis'
+dataFrame_wiki.loc[9,'Ligne Horizon']='M 8'
+dataFrame_wiki.loc[10,'Ligne Horizon']='M 9'
+dataFrame_wiki.loc[11,'Ligne Horizon']='M 10'
+dataFrame_wiki.loc[12,'Ligne Horizon']='M 11'
+dataFrame_wiki.loc[13,'Ligne Horizon']='M 12'
+dataFrame_wiki.loc[14,'Ligne Horizon']='M 13'
+dataFrame_wiki.loc[15,'Ligne Horizon']='M 14'
+dataFrame_wiki.drop([16])
 
 print(dataFrame_wiki)
+
 # https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging
 
 # parse wiki table 
