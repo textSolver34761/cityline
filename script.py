@@ -1,5 +1,6 @@
 import pandas as pd
 
+pd.show_versions
 # parse according to "system_name":"Métro de Paris"
 # asked help on StackOverflow :
 #https://stackoverflow.com/questions/65328899/is-there-a-way-to-sort-a-dataframe-using-pandas-or-other-library-in-python
@@ -32,9 +33,9 @@ dataFrame_wiki.loc[12,'Ligne Horizon']='M 11'
 dataFrame_wiki.loc[13,'Ligne Horizon']='M 12'
 dataFrame_wiki.loc[14,'Ligne Horizon']='M 13'
 dataFrame_wiki.loc[15,'Ligne Horizon']='M 14'
-dataFrame_wiki.drop([16])
+Finaldata = dataFrame_wiki.drop(16)
 
-print(dataFrame_wiki)
+print(Finaldata)
 
 # https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging
 
