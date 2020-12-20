@@ -9,7 +9,7 @@ Dans un premier temps, trouver les dates de mises en services fiables pour les f
 Dans un second temps, trouver des documents permettant l'analyse de l'expansion de Paris (habitants, déplacements, etc.) **fait** <br />
 <br />
 Prendre les données au format JSON de citylines et ne répcupérer les données liés au métro. **fait** <br />
-Faire de même pour les données du tableau wikipedia. <br />
+Faire de même pour les données du tableau wikipedia. **fait** <br />
 <br>
 Concaténer les données entre elles de façon à n'avoir qu'un JSON avec les données du JSON "initial", (paris_lines_systems_and_modes.json) et les données du tableau wikipedia. <br />
 
@@ -47,7 +47,7 @@ First, find the dates of reliable commissioning to make them coincide with the c
 Secondly, finding documents allowing the analysis of the expansion of Paris (inhabitants, displacements, etc.) **done**
 
 Take data in JSON format from citylines and do not retrieve data related to the metro. **done** <br />
-Do the same for the data in the wikipedia table.
+Do the same for the data in the wikipedia table. **done** <br />
 
 Concatenate the data between them so as to have only one JSON with the data of the "initial" JSON, (paris_lines_systems_and_modes.json) and the data of the wikipedia table.
 
