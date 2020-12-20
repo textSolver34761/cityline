@@ -1,13 +1,11 @@
 import pandas as pd
 
-pd.show_versions
 # parse according to "system_name":"Métro de Paris"
 # asked help on StackOverflow :
 #https://stackoverflow.com/questions/65328899/is-there-a-way-to-sort-a-dataframe-using-pandas-or-other-library-in-python
 data = pd.read_json(r'paris_lines_systems_and_modes.json')
 data = data[data.system_name == "Métro de Paris"]
 data = data[data.color != "#000"]
-#print(data)
 
 # parse wiki table
 data_wiki = pd.read_html('https://fr.wikipedia.org/wiki/M%C3%A9tro_de_Paris')
@@ -37,7 +35,12 @@ Finaldata = dataFrame_wiki.drop(16)
 
 print(Finaldata)
 
+#joining the data like in SQL for use in Web
 # https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging
+
+
+#putting the new dataset (from join in json format)
+
 
 # parse wiki table 
 dem_paris = pd.read_html('https://fr.wikipedia.org/wiki/Mod%C3%A8le:Tableau_D%C3%A9mographie_Paris#Carte')
