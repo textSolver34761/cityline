@@ -51,7 +51,12 @@ Secondly, finding documents allowing the analysis of the expansion of Paris (inh
 Take data in JSON format from citylines and do not retrieve data related to the metro. **done** <br />
 Do the same for the data in the wikipedia table. **done** <br />
 
-Concatenate the data between them so as to have only one JSON with the data of the "initial" JSON, (paris_lines_systems_and_modes.json) and the data of the wikipedia table. **done**
+Concatenate the data between them so as to have only one JSON with the data of the "initial" JSON, (paris_lines_systems_and_modes.json) and the data of the wikipedia table. **done** <br />
+<br />
+Create a map of Paris using a library (which one?) <br />
+Combine the map and data (JSON JSON  or DataFrame) to see the data: data Viz. <br />
+Add a barre of time for the user to be able to make the years pass and that data are interactive. <br />
+(eg : if the  "time barre " displays 2030, the map will display the line 15 of the Paris métro)
 
 **Analyzed data** <br/>
 Part of the data comes from the citylines site. This data can be found [here](https://www.citylines.co/data?city=paris#city "Cityline"). <br />
