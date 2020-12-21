@@ -1,4 +1,5 @@
 import pandas as pd
+import pygal_maps_fr as frenchMap
 
 # parse according to "system_name":"Métro de Paris"
 # asked help on StackOverflow :
