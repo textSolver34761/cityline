@@ -11,7 +11,7 @@ Dans un second temps, trouver des documents permettant l'analyse de l'expansion 
 Prendre les données au format JSON de citylines et ne répcupérer les données liés au métro. **fait** <br />
 Faire de même pour les données du tableau wikipedia. **fait** <br />
 <br>
-Concaténer les données entre elles de façon à n'avoir qu'un JSON avec les données du JSON "initial", (paris_lines_systems_and_modes.json) et les données du tableau wikipedia. <br />
+Concaténer les données entre elles de façon à n'avoir qu'un JSON avec les données du JSON "initial", (paris_lines_systems_and_modes.json) et les données du tableau wikipedia. **fait** <br />
 
 
 
@@ -49,7 +49,7 @@ Secondly, finding documents allowing the analysis of the expansion of Paris (inh
 Take data in JSON format from citylines and do not retrieve data related to the metro. **done** <br />
 Do the same for the data in the wikipedia table. **done** <br />
 
-Concatenate the data between them so as to have only one JSON with the data of the "initial" JSON, (paris_lines_systems_and_modes.json) and the data of the wikipedia table.
+Concatenate the data between them so as to have only one JSON with the data of the "initial" JSON, (paris_lines_systems_and_modes.json) and the data of the wikipedia table. **done**
 
 **Analyzed data** <br/>
 Part of the data comes from the citylines site. This data can be found [here](https://www.citylines.co/data?city=paris#city "Cityline"). <br />
