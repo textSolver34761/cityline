@@ -46,6 +46,7 @@ DataForViz = DataForViz.to_json()
 print(DataForViz)
 
 # trying to visulalize data
+# https://scitools.org.uk/cartopy/docs/latest/crs/projections.html#geostationary
 
 # parse wiki table 
 dem_paris = pd.read_html('https://fr.wikipedia.org/wiki/Mod%C3%A8le:Tableau_D%C3%A9mographie_Paris#Carte')
