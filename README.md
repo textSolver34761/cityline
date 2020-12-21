@@ -12,9 +12,11 @@ Prendre les données au format JSON de citylines et ne répcupérer les données
 Faire de même pour les données du tableau wikipedia. **fait** <br />
 <br>
 Concaténer les données entre elles de façon à n'avoir qu'un JSON avec les données du JSON "initial", (paris_lines_systems_and_modes.json) et les données du tableau wikipedia. **fait** <br />
-
-
-
+<br />
+Créer une carte de Paris avec une librairie. (Laquelle?) <br />
+Combiner la carte et les données (format JSON  ou DataFrame) pour voir la donnée : data Viz. <br />
+Ajouter une barre de temps pour que l'utilisateur puisse faire défiler les années et que les données puissent être interactifs  <br />
+(par ex : si "bare de temps" est sur 2030, la ligne 15 du métro de Paris apparait)
 
 **Données analysés** <br />
 Une partie des données est issue du site citylines. Ces données se trouvent [ici](https://www.citylines.co/data?city=paris#city "Cityline"). <br />
