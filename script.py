@@ -1,5 +1,4 @@
 import pandas as pd
-import pygal_maps_fr as frenchMap
 
 # parse according to "system_name":"Métro de Paris"
 # asked help on StackOverflow :
@@ -45,6 +44,8 @@ print(DataForViz)
 #putting the new dataset (from join in json format)
 DataForViz = DataForViz.to_json()
 print(DataForViz)
+
+# trying to visulalize data
 
 # parse wiki table 
 dem_paris = pd.read_html('https://fr.wikipedia.org/wiki/Mod%C3%A8le:Tableau_D%C3%A9mographie_Paris#Carte')
