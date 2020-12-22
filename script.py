@@ -36,6 +36,9 @@ dataFrame_wiki.loc[15,'Ligne Horizon']='M 14'
 # looking for a way to delete duplicate
 Finaldata = dataFrame_wiki.drop(16)
 
+#parse goejson file
+geodata = pd.read_json(r'paris_sections.geojson')
+
 #joining the data like in SQL for use in Web
 # https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging
 DataForViz = pd.merge(dataDrop, Finaldata, how='inner', on='Ligne Horizon')
