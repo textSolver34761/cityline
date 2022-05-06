@@ -24,14 +24,25 @@ Une autre partie des données proviennent de [Wikipédia](https://fr.wikipedia.o
 Des données démographique proviennent également de [Wikipédia](https://fr.wikipedia.org/wiki/Mod%C3%A8le:Tableau_D%C3%A9mographie_Paris) <br />
 
 **Fichiers contenus dans le projet**
+- gitignore <br />
+- paris_lines_systems_and_modes.json : tous les systèmes et moyens de transports dans Paris <br />
+- paris_stations.geojson  <br />
+- paris_section.geojson <br />
+- script.py <br />
+- script.ipynb (Le fichier script.py convertie en un Jupyter Notbook) <br />
+- secrutity.md 
 
-**Fonctionnement du programme**
+**Fonctionnement du programme** <br />
 
-**Technologie utilisé**
+**Technologie utilisé** <br />
+- python <br />
+- spark
 
-**Imports natif**
+**Imports natif** <br />
+- pandas <br />
+- pyspark <br />
 
-**Axes d'amélioration**
+**Axes d'amélioration** <br />
 
 **Auteur**<br />
 Benjamin PRADON
