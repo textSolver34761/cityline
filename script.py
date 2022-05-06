@@ -60,3 +60,6 @@ df_dem_paris_1872_1911 = dem_paris[3]
 df_dem_paris_1921_1975 = dem_paris[4]
 df_dem_paris_1982_2016 = dem_paris[5]
 
+#Use p2j to convert Python source code to Jupyter Notebook.
+#pip install p2j
+#run p2j myscript.py
